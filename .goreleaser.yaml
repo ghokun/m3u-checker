@@ -1,0 +1,38 @@
+version: 2
+
+before:
+  hooks:
+    - go mod tidy
+builds:
+  - env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    goamd64:
+      - v3
+    ldflags:
+      - -s -w -X "main.Version={{ .Env.RELEASE_VERSION }}"
+
+archives:
+  - format: tar.gz
+checksum:
+  name_template: "checksums.txt"
+changelog:
+  use: github
+
+brews:
+  - name: m3u-checker
+    goamd64: v3
+    repository:
+      owner: ghokun
+      name: homebrew-tap
+      branch: main
+      token: "{{ .Env.GORELEASER_HOMEBREW_GITHUB_TOKEN }}"
+    directory: Formula
+    homepage: "https://github.com/ghokun/m3u-checker"
+    description: "Checks availability of streams in an m3u playlist and generates report"
+    license: "Apache-2.0"
