@@ -78,7 +78,10 @@ func main() {
 					resolution = sb.String()
 				}
 				rows = append(rows, []string{track.Name, resolution, track.URI})
-				bar.Add(1)
+				err = bar.Add(1)
+				if err != nil {
+					return err
+				}
 			}
 
 			var markdown *md.Markdown
@@ -93,7 +96,7 @@ func main() {
 				markdown = md.NewMarkdown(os.Stdout)
 			}
 
-			markdown.
+			return markdown.
 				H2(url).
 				CustomTable(md.TableSet{
 					Header: []string{"Name", "Resolutions", "URL"},
@@ -105,8 +108,6 @@ func main() {
 					},
 				).
 				Build()
-
-			return nil
 		},
 	}
 
