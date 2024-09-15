@@ -1,6 +1,20 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "automergeStrategy": "squash",
   "extends": [
-    "config:recommended"
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "automerge": true,
+      "description": "Automerge non-major updates",
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    }
+  ],
+  "postUpdateOptions": [
+    "gomodTidy"
   ]
 }
