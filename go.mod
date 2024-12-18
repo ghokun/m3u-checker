@@ -6,7 +6,7 @@ require gopkg.in/vansante/go-ffprobe.v2 v2.2.1
 
 require (
 	github.com/jamesnetherton/m3u v0.4.0
-	github.com/nao1215/markdown v0.6.0
+	github.com/nao1215/markdown v0.7.0
 )
 
 require (
