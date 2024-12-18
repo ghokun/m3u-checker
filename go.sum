@@ -15,8 +15,8 @@ github.com/mattn/go-runewidth v0.0.16 h1:E5ScNMtiwvlvB5paMFdw9p4kSQzbXFikJ5SQO6T
 github.com/mattn/go-runewidth v0.0.16/go.mod h1:Jdepj2loyihRzMpdS35Xk/zdY8IAYHsh153qUoGf23w=
 github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db h1:62I3jR2EmQ4l5rM/4FEfDWcRD+abF5XlKShorW5LRoQ=
 github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db/go.mod h1:l0dey0ia/Uv7NcFFVbCLtqEBQbrT4OCwCSKTEv6enCw=
-github.com/nao1215/markdown v0.6.0 h1:kqhrC47K434YA1jMTUwJwSV/hla8ifN3NzehMEffI/E=
-github.com/nao1215/markdown v0.6.0/go.mod h1:ObBhnNduWwPN+bu4dtv4JoLRt57ONla7l//03iHIVhY=
+github.com/nao1215/markdown v0.7.0 h1:SCQkvdQXQuKJW8KaCsvBob8Afy4T4iJUAYIefWpHojE=
+github.com/nao1215/markdown v0.7.0/go.mod h1:ObBhnNduWwPN+bu4dtv4JoLRt57ONla7l//03iHIVhY=
 github.com/olekukonko/tablewriter v0.0.5 h1:P2Ga83D34wi1o9J6Wh1mRuqd4mF/x/lgBS7N7AbDhec=
 github.com/olekukonko/tablewriter v0.0.5/go.mod h1:hPp6KlRPjbx+hW8ykQs1w3UBbZlj6HuIJcUGPhkA7kY=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
