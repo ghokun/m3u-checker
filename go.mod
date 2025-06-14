@@ -7,7 +7,7 @@ require gopkg.in/vansante/go-ffprobe.v2 v2.2.1
 require (
 	github.com/jamesnetherton/m3u v0.4.0
 	github.com/nao1215/markdown v0.7.1
-	github.com/urfave/cli/v2 v2.27.6
+	github.com/urfave/cli/v2 v2.27.7
 )
 
 require (
@@ -19,7 +19,7 @@ require (
 )
 
 require (
-	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
 	github.com/karrick/godirwalk v1.17.0 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
