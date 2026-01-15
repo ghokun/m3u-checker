@@ -2,7 +2,7 @@ module github.com/ghokun/m3u-checker
 
 go 1.23.1
 
-require gopkg.in/vansante/go-ffprobe.v2 v2.2.1
+require gopkg.in/vansante/go-ffprobe.v2 v2.3.0
 
 require (
 	github.com/jamesnetherton/m3u v0.4.0
