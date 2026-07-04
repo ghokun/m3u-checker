@@ -5,7 +5,7 @@ go 1.23.1
 require gopkg.in/vansante/go-ffprobe.v2 v2.3.0
 
 require (
-	github.com/jamesnetherton/m3u v0.4.0
+	github.com/jamesnetherton/m3u v0.4.1
 	github.com/nao1215/markdown v0.10.0
 	github.com/urfave/cli/v2 v2.27.7
 )
